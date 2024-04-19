@@ -36,3 +36,7 @@ button:hover {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+.player-stats {
+    text-align: center;
+    font-weight: 700;
+}

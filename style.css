@@ -37,6 +37,16 @@ button:hover {
     border-radius: 5px;
 }
 .player-stats {
+    max-width: 300px;
+    margin: 60px auto;
+    background: rgb(233, 14, 14);
+    padding: 23px;
+    box-shadow: 2px 4px 24px 2px rgba(100, 100, 111, 0.4);
+    border-radius: 5px;
     text-align: center;
     font-weight: 700;
+}
+h1 {
+    background-color: #eb0511;
+    width: fit-content;
 }

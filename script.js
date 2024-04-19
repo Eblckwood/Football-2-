@@ -23,7 +23,7 @@ function showStats() {
         case "KING":
             stats = "Derick Henry: Rushing Yards 1167 - Rushing Touchdown's 12";
             break;
-            case "MYles":
+        case "MYles":
             stats = "Myles Garrett: Solo Tackles 33 - Sacks 14 - Forced Fumbles 4";
             break;
         default:

@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>NFL stats</title>
 </head>
-
 <body>
     <div class="container">
         <h1>NFL Stats</h1>
 
-        <select id="Player">
+        <select id="player" onchange="showStats()">
             <option value="">Select a Player</option>
             <option value="patty">Patrick M</option>
             <option value="Joyy">Joe Burrow</option>
@@ -19,6 +18,10 @@
             <option value="Travis">Travis Kelce</option>
             <option value="KING">Derick Henry</option>
         </select>
+        
+        <div class="player-stats" id="player-stats-placeholder">
+            <!-- Player stats will appear here -->
+        </div>
     </div>
 </body>
 </html>
